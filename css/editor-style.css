@@ -1,0 +1,27 @@
+.sigja_ja {padding: 0.5rem; border: solid 1px gray; display: block; margin: 0.5rem 0; position: relative;}
+.sigja_ja img {margin: auto !important;}
+
+.sigja_ja::before {display: block;font-size: 1rem;text-align: center;font-weight: bold; background-color: rgb(227, 227, 227); padding: 0.5rem; }
+.sigja_ja::after {display: block;font-size: 1rem;position: absolute; right: 1rem; top: 1rem;}
+
+.sigja_ja.sigja_a_slideInUp::before {content: "Slide In Up";}
+.sigja_ja.sigja_a_slideInDown::before {content: "Slide In Down";}
+.sigja_ja.sigja_a_slideInRight::before    {content: "Slide In Right";}
+.sigja_ja.sigja_a_slideInLeft::before    {content: "Slide In Left";}
+.sigja_ja.sigja_a_fadeIn::before    {content: "Fade In";}
+.sigja_ja.sigja_a_zoomIn::before    {content: "Zoom In";}
+.sigja_ja.sigja_a_rotateIn::before    {content: "Rotate In";}
+.sigja_ja.sigja_a_rotateInDownLeft::before    {content: "Rotate In Down Left";}
+.sigja_ja.sigja_a_rotateInDownRight::before    {content: "Rotate In Down Right";}
+.sigja_ja.sigja_a_flash::before    {content: "Flash";}
+.sigja_ja.sigja_a_flipInX::before    {content: "Flip In X";}
+.sigja_ja.sigja_a_flipInY::before    {content: "Flip In Y";}
+.sigja_ja.sigja_a_bounce::before    {content: "Bounce";}
+.sigja_ja.sigja_a_pulse::before    {content: "Pulse";}
+.sigja_ja.sigja_a_pulseX2::before    {content: "Pulse X2";}
+
+.sigja_ja.sigja_s_slow::after {content: "Speed: Slow";}
+.sigja_ja.sigja_s_normal::after {content: "Speed: Noraml";}
+.sigja_ja.sigja_s_fast::after {content: "Speed: Fast";}
+.sigja_ja.sigja_s_vfast::after {content: "Speed: Very Fast";}
+
